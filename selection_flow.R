@@ -2,14 +2,20 @@
 
 my_score <- 70
 
-if (my_score >= 90) {
-  print("Excellent")
-} else if (my_score >= 80) {
-  print("Very Good")
-} else if (my_score >= 70) {
-  print("Good")
-} else if (my_score >= 60) {
-  print("Satisfactory")
-} else {
-  print("Needs Improvement")
+#if statement
+if (my_score >= 60) {
+  cat("You passed the exam")
 }
+
+if (my_score >= 90) {
+  cat("Excellent")
+} else if (my_score >= 80) {
+  cat("Very Good")
+} else if (my_score >= 70) {
+  cat("Good")
+} else if (my_score >= 60) {
+  cat("Satisfactory")
+} else {
+  cat("Needs Improvement")
+}
+
