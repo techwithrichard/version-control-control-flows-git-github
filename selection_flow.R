@@ -19,3 +19,14 @@ if (my_score >= 90) {
   cat("Needs Improvement")
 }
 
+
+#switch statement
+my_programming_lang <- "R"
+switch(my_grade,
+       J = "Javascript",
+       G = "Golang",
+       R = "R programming",
+       P = "Python programming",
+       N = "Not a programmer",
+       "Invalid Grade"
+)
